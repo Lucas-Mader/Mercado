@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/pagina_editar.css">
+        <title>Editar produtos</title>
+    </head>
+    <body>
+        <div id="dados_opcoes" id="dados">
+            <div id="avatar"></div>
+            <ul>
+                <li><a href="pagina_inicial.html">Editar dados do cadastro</a></li>
+                <li><a href="pagina_adicionar.html">Adicionar itens</a></li>
+                <li><a href="pagina_editar.html"><u>Editar informacoes de produtos</u></a></li>
+                <li><a href="pagina_remover_tudo.html">Remover todos os itens</a></li>
+                <li><a href="pagina_listar.html">Listar itens</a></li>
+            </ul>
+        </div>
+        <div id="form_editar">
+            <p><input type="text" placeholder="Nome do produto para realizar o procedimento: " id="nome_produto"></p>
+            <p><input type="button" id="procurar_nome" value="Procurar" onclick="enviar_concluir(nome_produto)"></p>
+        </div>
+        <script type="text/javascript" src="index.js" defer></script>
+    </body>
+</html>

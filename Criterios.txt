@@ -1,0 +1,22 @@
+Deve ser desenvolvido um site para o sistema de controle de estoque, fácil de usar e bonito.
+Ele deve apresentar:
+-Categoria do produto;
+-Nome do produto;
+-Colocar foto dos item;
+-Sistema de unidades do item;
+-Vender pack fechado;
+-Localizar dentro da loja onde estão os itens;
+-Foto da localização;
+-Quantidade do produto em estoque;
+-Preço unitário;
+-Quanto o valor total do itens, contando com sua unidade de medida;
+
+O primeiro acesso do usuário:
+- Cadastrar nome da loja;
+- Inserir logo da loja;
+
+O usuário poderá:
+-Editar itens
+-Cadastrar itens
+-Listar itens
+-Remover itens

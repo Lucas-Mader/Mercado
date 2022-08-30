@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    font-family: coffee;
+}
+
+@font-face {
+    font-family: coffee;
+    src: url(Fresh\ Steak.otf);
+}
+
+html {
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    text-align: center;
+    font-size: 30px;
+    height: 100%;
+    width: 100%
+}
+
+#dados_opcoes {
+    left: 0;
+    background-color: black;
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    height: 100%;
+    width: max-content;
+    line-height: 200%;
+}
+
+#avatar {
+    background-image: url(default_profile_picture.jpg);
+    background-size: cover;
+    margin: 0 20% 0 20%;
+    height: 20ch;
+    width: 20ch;
+    border: 5px solid black;
+}
+
+ul {
+    padding: 5% 3% 5% 3%;
+    list-style-type: none;
+    height: fit-content;
+    width: fit-content;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    margin: 2%;
+    border-radius: 10px 10px 10px 10px;
+    background-color: deeppink;
+}
+
+li:hover {
+    color: rgb(200, 200, 200);
+    background-color: rgb(185, 11, 104);
+    transition-duration: 0.4s;
+}
+
+#remover_tudo {
+    background-color: deeppink;
+    border: 10px solid black;
+    line-height: 250%;
+    position: absolute;
+    width: 60%;
+    min-width: 450px;
+    left: 25%;
+    margin: 4%;
+    margin-top: 3%;
+}
+
+p {
+    margin: 12.2vh;
+}
+
+input[type="button"] {
+    font-size: 20px;
+    border: 2px solid black;
+    width: 40%;
+    color: black;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(177, 177, 177);
+    color: rgb(20, 20, 20);
+    transition-duration: 0.4s;
+}
+
+input[type="button"]#remover_tudo_botao_sim {
+    background-color: rgba(60, 255, 60, 0.863);
+}
+
+input[type="button"]#remover_tudo_botao_sim:hover {
+    color: white;
+    background-color: rgba(29, 182, 29, 0.945);
+    transition-duration: 0.4s;
+}
+
+input[type="button"]#remover_tudo_botao_nao {
+    background-color: rgba(255, 51, 51, 0.788);
+}
+
+input[type="button"]#remover_tudo_botao_nao:hover {
+    color: white;
+    background-color: rgba(230, 31, 31, 0.842);
+    transition-duration: 0.4s;
+}
+
+input[type="button"]#reload {
+    border: solid 2px black;
+    width: max-content;
+}
+
+label {
+    cursor: auto;
+}

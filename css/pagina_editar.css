@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    font-family: coffee;
+}
+
+@font-face {
+    font-family: coffee;
+    src: url(Fresh\ Steak.otf);
+}
+
+html {
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    text-align: center;
+    font-size: 25px;
+    height: 100%;
+    width: 100%
+}
+
+#dados_opcoes {
+    left: 0;
+    background-color: black;
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    height: 100%;
+    width: max-content;
+    line-height: 200%;
+}
+
+#avatar {
+    background-image: url(default_profile_picture.jpg);
+    background-size: cover;
+    margin: 0 20% 0 20%;
+    height: 20ch;
+    width: 20ch;
+    border: 5px solid black;
+}
+
+ul {
+    padding: 5% 3% 5% 3%;
+    list-style-type: none;
+    height: fit-content;
+    width: fit-content;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    margin: 2%;
+    border-radius: 10px 10px 10px 10px;
+    background-color: deeppink;
+}
+
+li:hover {
+    color: rgb(200, 200, 200);
+    background-color: rgb(185, 11, 104);
+    transition-duration: 0.4s;
+}
+
+#form_editar {
+    background-color: deeppink;
+    border: 10px solid black;
+    line-height: 200%;
+    position: absolute;
+    width: 60%;
+    min-width: 450px;
+    left: 20%;
+    padding: 2%;
+    margin: 10%;
+    margin-top: 3%;
+}
+
+#foto_produto_lista {
+    height: 150px;
+    width: 150px;
+}
+
+#images1 {
+    margin-left: 5%;
+    float: left;
+}
+
+#images2 {
+    margin-right: 5%;
+    float: right;
+}
+
+input {
+    font-size: 20px;
+    border: 0;
+}
+
+input[type="text"] {
+    margin: 1%;
+    width: 60%;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+input[type="number"] {
+    margin: 1%;
+    font-size: 20px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+input[type="text"]::placeholder {
+    color: rgb(133, 133, 133);
+}
+
+input[type="number"]::placeholder {
+    color: rgb(133, 133, 133);
+}
+
+select {
+    margin: 1%;
+    width: 45%;
+    font-size: 20px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+option {
+    color: rgb(133, 133, 133);
+}
+
+input[type="button"] {
+    border: solid 2px black;
+    width: 25%;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(177, 177, 177);
+    color: rgb(20, 20, 20);
+    transition-duration: 0.4s;
+}
+
+#enviar_remover {
+    float: left;
+    margin: 2%;
+}
+
+#enviar_editar {
+    float: right;
+    margin: 2%;
+}
+
+label {
+    cursor: auto;
+}
