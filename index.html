@@ -10,10 +10,10 @@
             <div id="avatar"></div>
             <ul>
                 <li><a href="pagina_inicial.html"><u>Editar dados de cadastro</u></a></li>
-                <li><a href="pagina_adicionar.html">Adicionar itens</a></li>
-                <li><a href="pagina_editar.html">Editar informacoes de produtos</a></li>
-                <li><a href="pagina_remover_tudo.html">Remover todos os itens</a></li>
-                <li><a href="pagina_listar.html">Listar itens</a></li>
+                <li><a href="./pages/pagina_adicionar.html">Adicionar itens</a></li>
+                <li><a href="./pages/pagina_editar.html">Editar informacoes de produtos</a></li>
+                <li><a href="./pages/pagina_remover_tudo.html">Remover todos os itens</a></li>
+                <li><a href="./pages/pagina_listar.html">Listar itens</a></li>
             </ul>
         </div>
         <div id="form">
@@ -24,7 +24,7 @@
                         <p><label id="dados_mercado">Dados do mercado</label></p>
                         <p><input type="text" placeholder="Nome do mercado" id="nome_mercado"></p>
                         <p><input type="text" placeholder="URL da logo do mercado" id="logo_mercado"></p>
-                        <input type="button" id="enviar_concluir_cadastro" value="Enviar" onclick='enviar_concluir_cadastro2(nome_mercado, logo_mercado)'>
+                        <input type="button" id="enviar_concluir_cadastro" value="Enviar" onclick='submit_market_info(nome_mercado, logo_mercado)'>
                     </div>
                 </fieldset>
             </form>
